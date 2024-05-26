@@ -7,7 +7,7 @@ const UserPage = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.top}>
-        <Link href={"/dashboard/users"}>
+        <Link href={"/dashboard/users/add"}>
           <button className={Styles.addButton}>Add User</button>
         </Link>
       </div>
