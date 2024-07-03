@@ -35,9 +35,11 @@ const UserPage = () => {
             <td>Admin</td>
             <td>Active</td>
             <td>
-              <button className={`${Styles.button} ${Styles.view}`}>
-                View
-              </button>
+              <Link href={"/dashboard/users/singleUser"}>
+                <button className={`${Styles.button} ${Styles.view}`}>
+                  View
+                </button>
+              </Link>
               <button className={`${Styles.button} ${Styles.delete}`}>
                 Delete
               </button>
